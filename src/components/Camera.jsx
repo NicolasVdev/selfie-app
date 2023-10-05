@@ -20,7 +20,7 @@ export const Camera = () => {
   }
 
   return (
-    <div className='webcam-container'>
+    <>
     <Webcam
     ref={webcamRef}
     audio={false}
@@ -37,6 +37,6 @@ export const Camera = () => {
         <img src={url} alt="Screenshot" />
       </div>
     )}
-    </div>
+    </>
   )
 }
