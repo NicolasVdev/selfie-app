@@ -69,6 +69,6 @@ button:focus-visible {
 }
 
 .webcam-container {
-  width: 100%;
-  max-width: 540px;
+  width: fit-content;
+  max-width: fit-content;
 }
