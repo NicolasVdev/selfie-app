@@ -3,7 +3,17 @@ video {
   height: auto;
 }
 
+.webcam-container {
+  position: relative;
+}
+
 .button {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  bottom: 10px; /* Ajustez la valeur selon vos besoins pour définir la distance par rapport au bas */
+  left: 50%; /* Pour centrer horizontalement les boutons */
+  transform: translateX(-50%); /* Pour centrer horizontalement les boutons */
+  display: flex; /* Pour aligner les boutons horizontalement */
+  justify-content: center; /* Pour espacer les boutons équitablement */
+  width: 100%;
+  gap: 50px;
 }
