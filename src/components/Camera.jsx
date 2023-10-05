@@ -29,8 +29,10 @@ export const Camera = () => {
     onUserMedia={onUserMedia}
     mirrored={true}
     />
-    <button onClick={capturePhoto}>SNAP</button>
-    <button onClick={() => setUrl(null)}>Refresh</button>
+    <div className='button'>
+      <button onClick={capturePhoto}>SNAP</button>
+      <button onClick={() => setUrl(null)}>Refresh</button>
+    </div>
 
     {url && (
       <div>
