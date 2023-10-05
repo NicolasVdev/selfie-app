@@ -1,12 +1,13 @@
 import './App.css';
 import { AllCamera } from './components/AllCamera';
+import { Camera } from './components/Camera';
 
 function App() {
 
   return (
-    <>
-    <AllCamera />
-    </>
+    <div className='App'>
+      <Camera />
+    </div>
   )
 }
 
